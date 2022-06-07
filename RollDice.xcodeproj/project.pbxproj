@@ -11,6 +11,10 @@
 		79D99975284BEA4A00090113 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D99974284BEA4A00090113 /* ContentView.swift */; };
 		79D99977284BEA4B00090113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D99976284BEA4B00090113 /* Assets.xcassets */; };
 		79D9997A284BEA4B00090113 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D99979284BEA4B00090113 /* Preview Assets.xcassets */; };
+		79D99981284BF47F00090113 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D99980284BF47F00090113 /* Dice.swift */; };
+		79D99983284BF5DB00090113 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D99982284BF5DB00090113 /* DiceView.swift */; };
+		79D99987284BFE4600090113 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D99986284BFE4600090113 /* ResultsView.swift */; };
+		79D99989284EAB9B00090113 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D99988284EAB9B00090113 /* DeleteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		79D99974284BEA4A00090113 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		79D99976284BEA4B00090113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79D99979284BEA4B00090113 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79D99980284BF47F00090113 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		79D99982284BF5DB00090113 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		79D99986284BFE4600090113 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		79D99988284EAB9B00090113 /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				79D99972284BEA4A00090113 /* RollDiceApp.swift */,
 				79D99974284BEA4A00090113 /* ContentView.swift */,
+				79D99988284EAB9B00090113 /* DeleteButton.swift */,
+				79D99986284BFE4600090113 /* ResultsView.swift */,
+				79D99980284BF47F00090113 /* Dice.swift */,
+				79D99982284BF5DB00090113 /* DiceView.swift */,
 				79D99976284BEA4B00090113 /* Assets.xcassets */,
 				79D99978284BEA4B00090113 /* Preview Content */,
 			);
@@ -138,6 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				79D99975284BEA4A00090113 /* ContentView.swift in Sources */,
+				79D99983284BF5DB00090113 /* DiceView.swift in Sources */,
+				79D99989284EAB9B00090113 /* DeleteButton.swift in Sources */,
+				79D99981284BF47F00090113 /* Dice.swift in Sources */,
+				79D99987284BFE4600090113 /* ResultsView.swift in Sources */,
 				79D99973284BEA4A00090113 /* RollDiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
